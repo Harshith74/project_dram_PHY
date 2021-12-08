@@ -1,0 +1,95 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+
+I am here intial state =  x
+
+
+I am here intial state =  9
+
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700478750.0 ps INFO: Load Mode 2
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700478750.0 ps INFO: Load Mode 2 Partial Array Self Refresh = Bank 0-7
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700478750.0 ps INFO: Load Mode 2 CAS Write Latency =           5
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700478750.0 ps INFO: Load Mode 2 Auto Self Refresh = Enabled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700478750.0 ps WARNING: Load Mode 2 Auto Self Refresh is not modeled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700478750.0 ps INFO: Load Mode 2 Self Refresh Temperature = Normal
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700478750.0 ps INFO: Load Mode 2 Dynamic ODT = Disabled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700488750.0 ps INFO: Load Mode 3
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700488750.0 ps INFO: Load Mode 3 MultiPurpose Register Select = Pre-defined pattern
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700488750.0 ps INFO: Load Mode 3 MultiPurpose Register Enable = Disabled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1 DLL Enable = Enabled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1 Output Drive Strength =          40 Ohm
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1 ODT Rtt =          60 Ohm
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1 Additive Latency = 0
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1 Write Levelization = Disabled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1 TDQS Enable = Disabled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700498750.0 ps INFO: Load Mode 1 Qoff = Enabled
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700508750.0 ps INFO: Load Mode 0
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700508750.0 ps INFO: Load Mode 0 Burst Length =  8
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700508750.0 ps INFO: Load Mode 0 Burst Order = Sequential
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700508750.0 ps INFO: Load Mode 0 CAS Latency =           5
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700508750.0 ps INFO: Load Mode 0 DLL Reset = Reset DLL
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700508750.0 ps INFO: Load Mode 0 Write Recovery =          16
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700508750.0 ps INFO: Load Mode 0 Power Down Mode = DLL off
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700553750.0 ps INFO: ZQ        long = 1
+ddrcontroller_mem.dd3_instance.cmd_task: at time 700553750.0 ps INFO: Initialization Sequence is complete
+ddrcontroller_mem.dd3_instance.cmd_task: at time 701858750.0 ps INFO: Refresh  
+ddrcontroller_mem.dd3_instance.cmd_task: at time 704463750.0 ps INFO: Activate  bank 1 row 0001
+
+dq_reg =   z
+
+ddrcontroller_mem.dd3_instance.cmd_task: at time 704518750.0 ps INFO: Write     bank 1 col 000, auto precharge 0
+
+dq_reg =   z
+
+
+dq_reg =   z
+
+
+dq_reg =   z
+
+
+dq_reg =   z
+
+wdqs_cntr,wdqs_pst,          10,           1
+
+dq_reg =   z
+
+ddrcontroller_mem.dd3_instance.data_task: at time 704531250.0 ps ERROR: DQS   bit           0 latching edge required during the preceding clock period.
+ddrcontroller_mem.dd3_instance.data_task: at time 704531250.0 ps ERROR: DQS_N bit           0 latching edge required during the preceding clock period.
+wdqs_cntr,wdqs_pst,           8,           1
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS   bit          0
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          1
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          2
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          3
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          4
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          5
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          6
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          7
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          8
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          9
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         10
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         11
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         12
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         13
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         14
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         15
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         16
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         17
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         18
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         19
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         20
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         21
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         22
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         23
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         24
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         25
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         26
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         27
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         28
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         29
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         30
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit         31
+ddrcontroller_mem.dd3_instance.dqs_pos_timing_check: at time 704531250.0 ps ERROR: Invalid latching edge on DQS_N bit          0
+ddrcontroller_mem.dd3_instance.data_task: at time 704532500.0 ps ERROR: DQS   bit           0 latching edge required during the preceding clock period
+ddrcontroller_mem.dd3_instance.data_task: at time 7045

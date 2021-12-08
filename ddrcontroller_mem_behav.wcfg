@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ddrcontroller_mem_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ddrcontroller_mem" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="701759333fs"></ZoomStartTime>
+      <ZoomEndTime time="701836634fs"></ZoomEndTime>
+      <Cursor1Time time="701823750fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/ddrcontroller_mem/cmd" type="array">
+      <obj_property name="ElementShortName">cmd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/in_addr" type="array">
+      <obj_property name="ElementShortName">in_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/i_valid" type="logic">
+      <obj_property name="ElementShortName">i_valid</obj_property>
+      <obj_property name="ObjectShortName">i_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/ck" type="logic">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/ck_n" type="logic">
+      <obj_property name="ElementShortName">ck_n</obj_property>
+      <obj_property name="ObjectShortName">ck_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/cke" type="logic">
+      <obj_property name="ElementShortName">cke</obj_property>
+      <obj_property name="ObjectShortName">cke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/cs_n" type="logic">
+      <obj_property name="ElementShortName">cs_n</obj_property>
+      <obj_property name="ObjectShortName">cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/ras_n" type="logic">
+      <obj_property name="ElementShortName">ras_n</obj_property>
+      <obj_property name="ObjectShortName">ras_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/cas_n" type="logic">
+      <obj_property name="ElementShortName">cas_n</obj_property>
+      <obj_property name="ObjectShortName">cas_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/we_n" type="logic">
+      <obj_property name="ElementShortName">we_n</obj_property>
+      <obj_property name="ObjectShortName">we_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/dm_tdqs" type="array">
+      <obj_property name="ElementShortName">dm_tdqs[0:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_tdqs[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/ba" type="array">
+      <obj_property name="ElementShortName">ba[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ba[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/addr" type="array">
+      <obj_property name="ElementShortName">addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/dq" type="array">
+      <obj_property name="ElementShortName">dq[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dq[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/dqs" type="array">
+      <obj_property name="ElementShortName">dqs[0:0]</obj_property>
+      <obj_property name="ObjectShortName">dqs[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/dqs_n" type="array">
+      <obj_property name="ElementShortName">dqs_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">dqs_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/tdqs_n" type="array">
+      <obj_property name="ElementShortName">tdqs_n[0:0]</obj_property>
+      <obj_property name="ObjectShortName">tdqs_n[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/state" type="array">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/odt" type="logic">
+      <obj_property name="ElementShortName">odt</obj_property>
+      <obj_property name="ObjectShortName">odt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/rst_n_wire" type="logic">
+      <obj_property name="ElementShortName">rst_n_wire</obj_property>
+      <obj_property name="ObjectShortName">rst_n_wire</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/ck_wire" type="logic">
+      <obj_property name="ElementShortName">ck_wire</obj_property>
+      <obj_property name="ObjectShortName">ck_wire</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/timing_timer/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/timing_timer/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/timing_timer/timer_value" type="array">
+      <obj_property name="ElementShortName">timer_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_value[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/timing_timer/timer_done" type="logic">
+      <obj_property name="ElementShortName">timer_done</obj_property>
+      <obj_property name="ObjectShortName">timer_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/timing_timer/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/timing_timer/MAX_TIMER_COUNT_BITS" type="array">
+      <obj_property name="ElementShortName">MAX_TIMER_COUNT_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_TIMER_COUNT_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/burst_timer/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/burst_timer/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/burst_timer/timer_value" type="array">
+      <obj_property name="ElementShortName">timer_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_value[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/burst_timer/timer_done" type="logic">
+      <obj_property name="ElementShortName">timer_done</obj_property>
+      <obj_property name="ObjectShortName">timer_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/burst_timer/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/mem_controller/burst_timer/MAX_TIMER_COUNT_BITS" type="array">
+      <obj_property name="ElementShortName">MAX_TIMER_COUNT_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_TIMER_COUNT_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/ADDR_BITS" type="array">
+      <obj_property name="ElementShortName">ADDR_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/BA_BITS" type="array">
+      <obj_property name="ElementShortName">BA_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BA_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ddrcontroller_mem/DQ_BITS" type="array">
+      <obj_property name="ElementShortName">DQ_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DQ_BITS[31:0]</obj_property>
+   </wvobject>
+</wave_config>
